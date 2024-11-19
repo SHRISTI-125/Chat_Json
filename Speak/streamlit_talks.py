@@ -1,4 +1,5 @@
 import streamlit as st
+import pyttsx3
 
 def initialize_tts():
     engine = pyttsx3.init()
