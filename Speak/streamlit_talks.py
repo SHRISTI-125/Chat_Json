@@ -1,17 +1,4 @@
 import streamlit as st
-'''
-def initialize_tts():
-    engine = pyttsx3.init()
-    engine.setProperty('rate', 130)
-    engine.setProperty('volume', 1.0)
-    voices = engine.getProperty('voices')
-    engine.setProperty('voice', voices[1].id)
-    return engine
-
-def speak(text, engine):
-    engine.say(text)
-    engine.runAndWait()
-'''
 
 def load_knowledge_base():
     knowledge_base = [
