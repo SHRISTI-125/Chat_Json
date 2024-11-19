@@ -1,5 +1,5 @@
 import streamlit as st
-
+'''
 def initialize_tts():
     engine = pyttsx3.init()
     engine.setProperty('rate', 130)
@@ -11,6 +11,7 @@ def initialize_tts():
 def speak(text, engine):
     engine.say(text)
     engine.runAndWait()
+'''
 
 def load_knowledge_base():
     knowledge_base = [
@@ -378,14 +379,14 @@ def find_response(input_text, knowledge_base):
 def chatbot():
     st.title("Wuzzu ~ The Chatbot")
     data = st.text_input("Write your name: ", " ")
-    tts_engine = initialize_tts()
+    #tts_engine = initialize_tts()
     knowledge_base = load_knowledge_base()
     st.write(f"Hi! How are you {data}?")
     user_input = st.text_input(f"{data} says: ", "")
     if user_input:
         response = find_response(user_input, knowledge_base)
         st.write(f"Wuzzu: {response}")
-        speak(response, tts_engine)
+        #speak(response, tts_engine)
         continue_input = st.radio("Do you want to ask more?", ["Yes", "No"])
         if continue_input == "No":
             st.write("Goodbye! Have a great day!")
