@@ -1,8 +1,8 @@
-## Wuzzu ~ The Chatbot
+## 🤖 Wuzzu ~ The Chatbot
 This chatbot is a lightweight chatbot application written in Python. 
 It uses JSON to manage predefined responses, allowing for simple and intuitive interactions based on user inputs.
 
-## Features
+## 📑 Features
 <ol>
   <li>
     Easy of Use
@@ -10,11 +10,11 @@ It uses JSON to manage predefined responses, allowing for simple and intuitive i
   <li>Simple answering bot.</li>
 </ol>
 
-## Checkout the project
-https://shristi-talks.streamlit.app/
+## 🚀 Checkout the project
+[Demo](https://shristi-talks.streamlit.app/)
 
-## Ask Questions 
-Eg:
+## ✅ Ask Questions 
+Example : 
 <ol>
   <li>what is pi</li>
   <li>what is a unique fact about the sun</li>
