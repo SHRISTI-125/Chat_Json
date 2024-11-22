@@ -1,5 +1,5 @@
-## Chat_Json
-Chat_Json is a lightweight chatbot application written in Python. 
+## Wuzzu ~ The Chatbot
+This chatbot is a lightweight chatbot application written in Python. 
 It uses JSON to manage predefined responses, allowing for simple and intuitive interactions based on user inputs.
 
 ## Features
